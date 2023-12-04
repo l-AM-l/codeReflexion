@@ -1,0 +1,64 @@
+
+body{
+      background-color: #f0f0f0; /* Color de fondo para toda la página */
+      margin: 0;
+      padding: 0;
+      line-height: 2;
+    }
+
+    
+    .blog-post {
+      background-color: #fff; /* Color del cuadro para cada párrafo de texto */
+      margin: 5rem;
+      padding: 20px;
+      border-radius: 5px;
+      
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      
+    }
+
+    .gradient-background {
+    background: linear-gradient(300deg, rgb(255, 0, 0), #4081ea, rgba(0, 0, 0, 0.899));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  #title{
+    padding-bottom: 5rem;
+  }
+
+  .container-sm{
+    margin: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+ .footer{
+  padding: 3rem;
+  text-align: center;
+ }
+
+ .imgStruct{
+  
+  height: 14rem;
+  align-self: center;
+ }
+
+ .container{
+  padding: 20px;
+ }
+
